@@ -1,0 +1,87 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: underline!important;
+}
+a:hover {
+  color: gray!important;
+  cursor: pointer;
+}
+
+canvas {
+  display: block;
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.current-score {
+  left: 20px;
+}
+.top-score {
+  right: 20px;
+}
+.score {
+  display: block;
+  position: absolute;
+  top: 15px;
+  z-index: 1;
+  font-size: 20px;
+}
+.controls {
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1;
+  font-size: 11px;
+  text-align: center;
+  line-height: 1.6;
+}
+.endgame{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 16px;
+  z-index: 1;
+  text-align: center;
+}
+button{
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 5px 10px;
+  margin: 5px;
+  font-family: Helvetica;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+input.fat-button {
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 5px 10px;
+  margin: 5px;
+  font-family: Helvetica;
+}
+
+input.fat-button:focus {
+  outline: 0;
+}
