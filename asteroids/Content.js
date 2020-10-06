@@ -11,8 +11,7 @@ const Content = ( { theme, playing, mobile, setTheme }) => {
             {/* Content */}
             <Col xs={12} md={6} lg={4} style={{ padding: 0, opacity: opacity }}>
                 <p>We are a software development and services company that specialises in building oracle technology. We connect any external data to blockchain applications through the technology we build.</p>
-                <p><a>GitHub</a></p>
-                <p><a>hello@relayer.api</a></p>
+                <p><a target={"_blank"} href={"https://github.com/mrpowerpoint/relayer-landing"}>GitHub</a></p>
             </Col>
             {mobile ? <a style={{ zIndex: 1, position: 'absolute', right: '20px', bottom: '20px'}} onClick={() => { setTheme(!theme)}}>{theme ? 'Light' : 'Dark'} mode</a>
                 : <></> // if its not mobile it will be rendered in the game
