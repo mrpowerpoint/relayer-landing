@@ -10,7 +10,7 @@ const Content = ( { theme, playing, mobile, setTheme }) => {
             </Col>
             {/* Content */}
             <Col xs={12} md={6} lg={4} style={{ padding: 0, opacity: opacity }}>
-                <p>We are a software development and services company for the oracle space. It connects API providers to blockchain applications through its software and service.</p>
+                <p>We are a software development and services company that specialises in building oracle technology. We connect any external data to blockchain applications through the technology we build.</p>
                 <p><a>GitHub</a></p>
                 <p><a>hello@relayer.api</a></p>
             </Col>
